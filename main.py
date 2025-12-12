@@ -123,7 +123,7 @@ def main():
     parser = argparse.ArgumentParser(
         description="Анализ зависимостей Rust пакетов (этап 2)"
     )
-    parser.add_argument(
+    parser.add_argument(    
         "--config", "-c", default="config.xml",
         help="Путь к XML файлу конфигурации"
     )
